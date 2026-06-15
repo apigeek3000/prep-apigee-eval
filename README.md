@@ -30,7 +30,7 @@ Terraform creates a network named `default`. If the project already has one
 
 ```bash
 export PROJECT_ID=$(gcloud config get-value project 2> /dev/null)
-gcloud compute networks list --project=PROJECT_ID
+gcloud compute networks list --project=$PROJECT_ID
 ```
 
 If a `default` network is listed, set `create_default_vpc = false` in your
