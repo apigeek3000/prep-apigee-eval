@@ -1,0 +1,7 @@
+# Copy to terraform.tfvars and fill in your values.
+
+# Required: the project to prepare for the Apigee eval organization.
+project_id = "my-apigee-eval-project"
+
+# Optional: set to false if a network named "default" already exists.
+# create_default_vpc = true
